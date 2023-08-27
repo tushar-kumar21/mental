@@ -1,0 +1,40 @@
+.custom-player {
+    max-width: 800px;
+    margin: 0 auto;
+    /* padding: 20px; */
+  }
+
+.tips-videos{
+ height: 300px;
+ overflow-y: scroll;
+}  
+
+.tips-videos::-webkit-scrollbar {
+    width: 8px;
+    background: var(--scrollbar-bg)
+  }
+
+  
+  .tips-videos::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border-radius: .5em;
+  }
+  
+  /* Adjust layout for smaller screens */
+  @media (max-width: 767px) {
+    .search-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .search-bar i {
+      margin-right: 10px;
+    }
+  
+    .search-bar input {
+      width: 80%;
+      max-width: 200px;
+    }
+  }  
+  
